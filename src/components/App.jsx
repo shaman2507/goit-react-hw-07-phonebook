@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import ContactForm from "./ContactForm/ContactForm";
 import Filter from "./Filter/Filter";
-import ContactList from "./ListContact/ContatcList";
+import ContactList from "./ListContact/ContactList";
 import Loading from "./Loading/Loading";
 import { filterSelector } from "store/filterSlice/selectors";
 import { contactsSelector } from "store/contactsSlice/selectors";
